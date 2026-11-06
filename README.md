@@ -17,7 +17,7 @@ The public GitHub Pages build runs in **browser-only demo mode**: sign-in and ch
 - Sentiment labels (positive / neutral / negative) and a polarity score from TextBlob's lightweight lexicon approach.
 - Input validation, message length limit, CORS origin setting, and account-scoped deletion.
 - API tests for registration, login failure, access control, and message behavior.
-- GitHub Actions workflow deploys the clearly labeled browser demo to GitHub Pages.
+- GitHub Pages hosts the clearly labeled browser demo from the `gh-pages` branch.
 
 ## What the chatbot actually does
 
@@ -110,7 +110,7 @@ Pass `Authorization: Bearer <token>` for authenticated routes.
 
 ```text
 mindful-chat/
-├── .github/workflows/pages.yml # GitHub Pages demo deployment
+├── pages-demo/index.html      # Standalone browser-only demo source
 ├── backend/
 │   ├── app/                 # API, data models, sentiment logic
 │   ├── tests/               # API tests
