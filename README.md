@@ -4,7 +4,7 @@ A portfolio-ready full-stack project with a browser-only GitHub Pages demo and a
 
 ## Live demo
 
-[Open the Mindful Chat live demo](https://akhil-2005-hub.github.io/mindful-chat-sentiment-analysis/) (the first deployment may take a few minutes after the first push).
+[Open the Mindful Chat live demo](https://akhil-2005-hub.github.io/mindful-chat-sentiment-analysis/) (browser-only preview).
 
 The public GitHub Pages build runs in **browser-only demo mode**: sign-in and chat are simulated in local browser storage, with a small demo lexicon. It does not connect to Flask or provide account security. Do not enter private information. Follow the local setup below to run the real Flask API with hashed passwords, JWT authentication, and SQLite/MySQL persistence.
 
